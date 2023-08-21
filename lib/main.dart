@@ -30,7 +30,7 @@ class MainPage extends StatefulWidget {
   final String title;
 
   const MainPage({
-    @required this.title,
+    required this.title,
   });
 
   @override
@@ -38,7 +38,7 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> with WidgetsBindingObserver {
-  TextEditingController controller;
+  late TextEditingController controller;
 
   @override
   initState() {

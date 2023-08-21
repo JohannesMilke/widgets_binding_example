@@ -1,7 +1,7 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
 class TextPreferences {
-  static SharedPreferences _preferences;
+  static late SharedPreferences _preferences;
 
   static const _keyText = 'text';
 
